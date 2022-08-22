@@ -7,58 +7,8 @@ node_modules
 .env
 dist
 
-# Created by https://www.toptal.com/developers/gitignore/api/windows,osx,linux,visualstudiocode,webstorm,vim,emacs,git,zsh,node,nuxtjs,vuejs
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,osx,linux,visualstudiocode,webstorm,vim,emacs,git,zsh,node,nuxtjs,vuejs
-
-### Emacs ###
-# -*- mode: gitignore; -*-
-*~
-\#*\#
-/.emacs.desktop
-/.emacs.desktop.lock
-*.elc
-auto-save-list
-tramp
-.\#*
-
-# Org-mode
-.org-id-locations
-*_archive
-
-# flymake-mode
-*_flymake.*
-
-# eshell files
-/eshell/history
-/eshell/lastdir
-
-# elpa packages
-/elpa/
-
-# reftex files
-*.rel
-
-# AUCTeX auto folder
-/auto/
-
-# cask packages
-.cask/
-dist/
-
-# Flycheck
-flycheck_*.el
-
-# server auth directory
-/server/
-
-# projectiles files
-.projectile
-
-# directory configuration
-.dir-locals.el
-
-# network security
-/network-security.data
+# Created by https://www.toptal.com/developers/gitignore/api/windows,osx,linux,visualstudiocode,webstorm,git,zsh,node,nuxtjs,vuejs
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,osx,linux,visualstudiocode,webstorm,git,zsh,node,nuxtjs,vuejs
 
 
 ### Git ###
@@ -264,26 +214,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-### Vim ###
-# Swap
-[._]*.s[a-v][a-z]
-!*.svg  # comment out if you don't need vector files
-[._]*.sw[a-p]
-[._]s[a-rt-v][a-z]
-[._]ss[a-gi-z]
-[._]sw[a-p]
-
-# Session
-Session.vim
-Sessionx.vim
-
-# Temporary
-.netrwhist
-# Auto-generated tag files
-tags
-# Persistent undo
-[._]*.un~
-
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -484,4 +414,4 @@ zsdoc/data
 /tests/_output/*
 !/tests/_output/.gitkeep
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,osx,linux,visualstudiocode,webstorm,vim,emacs,git,zsh,node,nuxtjs,vuejs
+# End of https://www.toptal.com/developers/gitignore/api/windows,osx,linux,visualstudiocode,webstorm,git,zsh,node,nuxtjs,vuejs
