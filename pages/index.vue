@@ -1,5 +1,18 @@
 <script setup>
 const { data } = await useFetch('/api/tickers?limit=10');
+console.log('1] data', data);
+
+if (data.value) {
+  console.log('2] data.value', data.value);
+}
+
+if (data.value.data) {
+  console.log('3] data.value.data', data.value.data);
+}
+
+if (data.data) {
+  console.log('2] data.data', data.data);
+}
 </script>
 
 <template>
