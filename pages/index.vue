@@ -1,6 +1,5 @@
 <script setup>
 const { data } = await useFetch('/api/tickers?limit=10');
-console.log(data);
 </script>
 
 <template>
